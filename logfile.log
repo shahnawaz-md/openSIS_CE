@@ -1,0 +1,293 @@
+2016-09-01 18:39:20,893 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:39:20,894 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:39:20,894 INFO  [Log]                                sTestCaseName                                        
+2016-09-01 18:39:20,894 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:39:20,894 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:39:25,041 INFO  [Log] New driver instantiated 
+2016-09-01 18:39:25,502 INFO  [Log] Opening the URL 
+2016-09-01 18:39:25,942 INFO  [Log] Events Going to Performed on Login Page  
+2016-09-01 18:39:26,107 INFO  [Log] Entering the Username 
+2016-09-01 18:39:28,206 INFO  [Log] Entering the Password 
+2016-09-01 18:39:30,306 INFO  [Log] Checking the Remember Me textbox 
+2016-09-01 18:39:34,520 INFO  [Log] Clicking on Login Button 
+2016-09-01 18:39:36,520 INFO  [Log] Logged in Successfully 
+2016-09-01 18:39:41,564 INFO  [Log] Events Going to Performed on School Setup Page  
+2016-09-01 18:39:43,680 INFO  [Log] Clicking on School Setup Tab 
+2016-09-01 18:39:44,805 INFO  [Log] Clicking on Calendar Link 
+2016-09-01 18:39:45,924 INFO  [Log] Clicking on New Calendar Link 
+2016-09-01 18:39:48,064 INFO  [Log] Entering the Calendar Name 
+2016-09-01 18:39:49,192 INFO  [Log] Clicking on Default Checkbox 
+2016-09-01 18:39:50,379 INFO  [Log] Clicking on Super Admin Checkbox 
+2016-09-01 18:39:51,536 INFO  [Log] Clicking on Admin Checkbox 
+2016-09-01 18:39:52,673 INFO  [Log] Clicking on Teacher Checkbox 
+2016-09-01 18:39:53,805 INFO  [Log] Clicking on Student Checkbox 
+2016-09-01 18:39:54,936 INFO  [Log] Clicking on Parent Checkbox 
+2016-09-01 18:39:56,070 INFO  [Log] Clicking on Ok Button 
+2016-09-01 18:39:57,190 INFO  [Log] Clicking on Marking Period Link 
+2016-09-01 18:39:58,324 INFO  [Log] Clicking on Add Button for Semester 1 
+2016-09-01 18:39:58,461 INFO  [Log] Entering the Semester1 Name 
+2016-09-01 18:40:00,577 INFO  [Log] Entering Semester1 Short Name 
+2016-09-01 18:40:01,633 INFO  [Log] Entering Semester1 Sort Order 
+2016-09-01 18:40:02,837 INFO  [Log] Clicking on Semester1 Begins Calendar 
+2016-09-01 18:40:06,201 INFO  [Log] Entering Begins Date for Semester1 
+2016-09-01 18:40:07,359 INFO  [Log] Clicking on Semester1 Ends Calendar 
+2016-09-01 18:40:10,690 INFO  [Log] Entering Ends Date for Semester 1 
+2016-09-01 18:40:11,828 INFO  [Log] Clicking on Save Button for Semester1 
+2016-09-01 18:40:12,961 INFO  [Log] Clicking on Add Button for Semester 2 
+2016-09-01 18:40:14,093 INFO  [Log] Entering the Semester2 Name 
+2016-09-01 18:40:15,230 INFO  [Log] Entering the Semester2 Short Name 
+2016-09-01 18:40:16,294 INFO  [Log] Entering Semester2 Sort Order 
+2016-09-01 18:40:17,467 INFO  [Log] Clicking on Semester2 Begins Calendar 
+2016-09-01 18:40:20,791 INFO  [Log] Entering Begins Date for Semester2 
+2016-09-01 18:40:21,964 INFO  [Log] Clicking on Semester2 Ends Calendar 
+2016-09-01 18:40:25,285 INFO  [Log] Entering Ends Date for Semester2 
+2016-09-01 18:40:26,409 INFO  [Log] Clicking on Save Button for Semester2 
+2016-09-01 18:40:29,824 INFO  [Log] Clicking on Semester1 Link 
+2016-09-01 18:40:30,973 INFO  [Log] Clicking on Add Button for Quarter1 
+2016-09-01 18:40:32,093 INFO  [Log] Entering Quarter1 Name 
+2016-09-01 18:40:33,193 INFO  [Log] Entering Quarter1 Short Name 
+2016-09-01 18:40:34,282 INFO  [Log] Entering Quarter1 Sort Order 
+2016-09-01 18:40:35,447 INFO  [Log] Clicking on Quarter1 Begins Calendar 
+2016-09-01 18:40:38,783 INFO  [Log] Entering Begins date for Quarter1 
+2016-09-01 18:40:39,937 INFO  [Log] Clicking on Quarter1 Ends Calendar 
+2016-09-01 18:40:43,285 INFO  [Log] Entering Ends Date for Quarter1 
+2016-09-01 18:40:44,422 INFO  [Log] Clicking on Save Button for Quarter1 
+2016-09-01 18:40:45,550 INFO  [Log] Clicking on Add Button for Quarter2 
+2016-09-01 18:40:46,695 INFO  [Log] Entering Quarter2 Name 
+2016-09-01 18:40:47,797 INFO  [Log] Entering Quarter2 Short Name 
+2016-09-01 18:40:48,845 INFO  [Log] Entering Quarter2 Sort Order 
+2016-09-01 18:40:50,017 INFO  [Log] Clicking on Quarter2 Begins Calendar 
+2016-09-01 18:40:53,362 INFO  [Log] Entering Begins Date for Quarter2 
+2016-09-01 18:40:54,532 INFO  [Log] Clicking on Quarter2 Ends Calendar 
+2016-09-01 18:40:57,859 INFO  [Log] Entering Ends Date for Quarter2 
+2016-09-01 18:40:59,041 INFO  [Log] Clicking on Save Button for Quarter2 
+2016-09-01 18:41:01,534 INFO  [Log] Clicking on Semester2 Link 
+2016-09-01 18:41:02,684 INFO  [Log] Clicking on Add Button for Quarter3 
+2016-09-01 18:41:03,802 INFO  [Log] Entering the Quarter3 Name 
+2016-09-01 18:41:04,911 INFO  [Log] Entering the Quarter3 Short Name 
+2016-09-01 18:41:05,965 INFO  [Log] Entering Quarter3 Sort Order 
+2016-09-01 18:41:07,134 INFO  [Log] Clicking on Quarter3 Begins Calendar 
+2016-09-01 18:41:10,451 INFO  [Log] Entering Begins Date for Quarter3 
+2016-09-01 18:41:11,629 INFO  [Log] Clicking on Quarter3 Ends Calendar 
+2016-09-01 18:41:14,864 INFO  [Log] Entering Ends Date for Quarter3 
+2016-09-01 18:41:15,985 INFO  [Log] Clicking on Save Button for Quarter3 
+2016-09-01 18:41:17,198 INFO  [Log] Clicking on Add Button for Quarter4 
+2016-09-01 18:41:18,328 INFO  [Log] Entering the Quarter4 Name 
+2016-09-01 18:41:19,422 INFO  [Log] Entering the Quarter4 Short Name 
+2016-09-01 18:41:20,468 INFO  [Log] Entering the Quarter4 Sort Order 
+2016-09-01 18:41:21,631 INFO  [Log] Clicking on Quarter4 Begins Calendar 
+2016-09-01 18:41:24,960 INFO  [Log] Entering Begins Date for Quarter4 
+2016-09-01 18:41:26,112 INFO  [Log] Clicking on Quarter4 Ends Calendar 
+2016-09-01 18:41:29,432 INFO  [Log] Entering Ends Date for Quarter4 
+2016-09-01 18:41:30,587 INFO  [Log] Clicking on Save Button for Quarter4 
+2016-09-01 18:41:31,701 INFO  [Log] Clicking on Rooms Link 
+2016-09-01 18:41:32,820 INFO  [Log] Entering Room1 Name 
+2016-09-01 18:41:33,912 INFO  [Log] Entering Room1 Capacity 
+2016-09-01 18:41:34,963 INFO  [Log] Entering Room1 Sort Order 
+2016-09-01 18:41:36,115 INFO  [Log] Clicking on Save Button for Room1 
+2016-09-01 18:41:37,229 INFO  [Log] Entering Room2 Name 
+2016-09-01 18:41:38,326 INFO  [Log] Entering Room2 Capacity 
+2016-09-01 18:41:39,376 INFO  [Log] Entering Room2 Sort Order 
+2016-09-01 18:41:40,505 INFO  [Log] Clicking on Save Button for Room2 
+2016-09-01 18:41:41,602 INFO  [Log] Clicking on Periods Link 
+2016-09-01 18:41:42,717 INFO  [Log] Entering Period1 Name 
+2016-09-01 18:41:43,806 INFO  [Log] Entering Period1 Short Name 
+2016-09-01 18:41:44,851 INFO  [Log] Entering Period1 Sort Order 
+2016-09-01 18:41:48,852 INFO  [Log] Entering Period1 Start Time 
+2016-09-01 18:41:52,781 INFO  [Log] Entering Period1 End Time 
+2016-09-01 18:41:53,889 INFO  [Log] Clicking on Used For Attendance Checkbox for Period1 
+2016-09-01 18:41:55,037 INFO  [Log] Clicking on Ignore For Scheduling for Period1 
+2016-09-01 18:41:56,162 INFO  [Log] Clicking on Save Button for Period1 
+2016-09-01 18:41:57,279 INFO  [Log] Entering Period2 Name 
+2016-09-01 18:41:58,380 INFO  [Log] Entering Period2 Short Name 
+2016-09-01 18:41:59,418 INFO  [Log] Entering Period2 Sort Order 
+2016-09-01 18:42:03,479 INFO  [Log] Entering Period2 Start Time 
+2016-09-01 18:42:07,542 INFO  [Log] Entering Period2 End Time 
+2016-09-01 18:42:08,668 INFO  [Log] Clicking on Used For Attendance Checkbox for Period2 
+2016-09-01 18:42:09,799 INFO  [Log] Clicking on Ignore For Scheduling Checkbox for Period2 
+2016-09-01 18:42:10,927 INFO  [Log] Clicking on Save Button for Period2 
+2016-09-01 18:42:12,032 INFO  [Log] Clicking on Grade Levels Link 
+2016-09-01 18:42:13,170 INFO  [Log] Entering Grade1 Name 
+2016-09-01 18:42:14,261 INFO  [Log] Entering Grade1 Short Name 
+2016-09-01 18:42:15,313 INFO  [Log] Entering Grade1 Sort Order 
+2016-09-01 18:42:16,449 INFO  [Log] Clicking on Save Button for Grade1 
+2016-09-01 18:42:17,550 INFO  [Log] Entering Grade2 Name 
+2016-09-01 18:42:18,640 INFO  [Log] Entering Grade2 Short Name 
+2016-09-01 18:42:19,689 INFO  [Log] Entering Grade2 Sort Order 
+2016-09-01 18:42:20,832 INFO  [Log] Clicking on Save Button for Grade2 
+2016-09-01 18:42:22,116 INFO  [Log] Select Next Grade Level for Grade1 
+2016-09-01 18:42:23,248 INFO  [Log] Clicking on Save Button 
+2016-09-01 18:42:28,257 INFO  [Log] Setup Page Action Performed Successfully 
+2016-09-01 18:42:28,258 INFO  [Log] Events Going to Performed on Grades Page  
+2016-09-01 18:42:30,370 INFO  [Log] Clicking on Grades Tab 
+2016-09-01 18:42:31,465 INFO  [Log] Clicking on Setup Link 
+2016-09-01 18:42:32,577 INFO  [Log] Clicking on Report Card Grades Link 
+2016-09-01 18:42:33,662 INFO  [Log] Entering the Grade Scale Name 
+2016-09-01 18:42:34,715 INFO  [Log] Entering the Grade Scale Value 
+2016-09-01 18:42:35,770 INFO  [Log] Entering the Grade Value Sort Order 
+2016-09-01 18:42:37,915 INFO  [Log] Clicking on Save Button 
+2016-09-01 18:42:39,053 INFO  [Log] Clicking on Main Grade Scale Tab 
+2016-09-01 18:42:40,179 INFO  [Log] Entering the First Name of Grade 
+2016-09-01 18:42:41,274 INFO  [Log] Entering the First Value of Grade 
+2016-09-01 18:42:42,324 INFO  [Log] Entering the First Grade Weighted GP Value 
+2016-09-01 18:42:43,376 INFO  [Log] Entering the First Grade Unweighted GP Value 
+2016-09-01 18:42:44,432 INFO  [Log] Entering the Sort Order of First Grade 
+2016-09-01 18:42:45,626 INFO  [Log] Clicking on Save Button For First Grade 
+2016-09-01 18:42:46,731 INFO  [Log] Entering the Second Name of Grade 
+2016-09-01 18:42:47,821 INFO  [Log] Entering the Second Value of Grade 
+2016-09-01 18:42:48,873 INFO  [Log] Entering the Second Grade Weighted GP Value 
+2016-09-01 18:42:49,921 INFO  [Log] Entering the Second Grade Unweighted GP Value 
+2016-09-01 18:42:50,986 INFO  [Log] Entering the Sort Order of Second Grade 
+2016-09-01 18:42:52,143 INFO  [Log] Clicking on Save Button For Second Grade 
+2016-09-01 18:42:53,243 INFO  [Log] Entering the Third Name of Grade 
+2016-09-01 18:42:54,339 INFO  [Log] Entering the Third Value of Grade 
+2016-09-01 18:42:55,388 INFO  [Log] Entering the Third Grade Weighted GP Value 
+2016-09-01 18:42:56,434 INFO  [Log] Entering the Third Grade Unweighted GP Value 
+2016-09-01 18:42:57,492 INFO  [Log] Entering the Sort Order of Third Grade 
+2016-09-01 18:42:58,638 INFO  [Log] Clicking on Save Button For Third Grade 
+2016-09-01 18:42:59,738 INFO  [Log] Entering the Fourth Name of Grade 
+2016-09-01 18:43:00,837 INFO  [Log] Entering the Fourth Value of Grade 
+2016-09-01 18:43:01,879 INFO  [Log] Entering the Fourth Grade Weighted GP Value 
+2016-09-01 18:43:02,964 INFO  [Log] Entering the Fourth Grade Unweighted GP Value 
+2016-09-01 18:43:04,020 INFO  [Log] Entering the Sort Order of Fourth Grade 
+2016-09-01 18:43:05,170 INFO  [Log] Clicking on Save Button For Fourth Grade 
+2016-09-01 18:43:06,260 INFO  [Log] Entering the Fifth Name of Grade 
+2016-09-01 18:43:07,357 INFO  [Log] Entering the Fifth Value of Grade 
+2016-09-01 18:43:08,398 INFO  [Log] Entering the Fifth Grade Weighted GP Value 
+2016-09-01 18:43:09,444 INFO  [Log] Entering the Fifth Grade Unweighted GP Value 
+2016-09-01 18:43:10,498 INFO  [Log] Entering the Sort Order of Fifth Grade 
+2016-09-01 18:43:11,642 INFO  [Log] Clicking on Save Button For Fifth Grade 
+2016-09-01 18:43:16,650 INFO  [Log] Grade Page Action Performed Successfully 
+2016-09-01 18:43:16,652 INFO  [Log] Events Going to Performed on Attendance Page  
+2016-09-01 18:43:18,775 INFO  [Log] Clicking on Attendance Tab 
+2016-09-01 18:43:19,856 INFO  [Log] Clicking on Setup Link 
+2016-09-01 18:43:20,940 INFO  [Log] Clicking on Attendance Code Link 
+2016-09-01 18:43:22,077 INFO  [Log] Entering Attendance Code Name as Present 
+2016-09-01 18:43:23,161 INFO  [Log] Entering Attendance Code Short Name for Present 
+2016-09-01 18:43:24,214 INFO  [Log] Entering Attendance Code Sort Order for Present 
+2016-09-01 18:43:25,520 INFO  [Log] Selecting Attendance Marked By Teachers 
+2016-09-01 18:43:26,646 INFO  [Log] Clicking on Default For Office Teacher Checkbox 
+2016-09-01 18:43:28,058 INFO  [Log] Selecting the Present State Code 
+2016-09-01 18:43:29,217 INFO  [Log] Clicking on Save Button for Present 
+2016-09-01 18:43:30,332 INFO  [Log] Entering Attendance Code Name as Absent 
+2016-09-01 18:43:31,425 INFO  [Log] Entering Attendance Code Short Name for Absent 
+2016-09-01 18:43:32,474 INFO  [Log] Entering Attendance Code Sort Order for Absent 
+2016-09-01 18:43:33,790 INFO  [Log] Selecting Attendance Marked By Teachers 
+2016-09-01 18:43:35,128 INFO  [Log] Selecting the Absent State Code 
+2016-09-01 18:43:36,303 INFO  [Log] Clicking on Save Button for Absent 
+2016-09-01 18:43:37,458 INFO  [Log] Entering Attendance Code Name as Half 
+2016-09-01 18:43:38,551 INFO  [Log] Entering Attendance Code Short Name for Half 
+2016-09-01 18:43:39,597 INFO  [Log] Entering Attendance Code Sort Order for Half 
+2016-09-01 18:43:40,917 INFO  [Log] Selecting Attendance Marked By Office Only 
+2016-09-01 18:43:42,217 INFO  [Log] Selecting the Half State Code 
+2016-09-01 18:43:43,361 INFO  [Log] Clicking on Save Button for Half 
+2016-09-01 18:43:45,472 INFO  [Log] Clicking on Home Tab 
+2016-09-01 18:43:50,486 INFO  [Log] Attendance Page Action Performed Successfully 
+2016-09-01 18:43:50,488 INFO  [Log] Events Going to Performed on Student Page  
+2016-09-01 18:43:52,612 INFO  [Log] Clicking on Student Tab 
+2016-09-01 18:43:53,735 INFO  [Log] Clicking on Add a Student tab 
+2016-09-01 18:43:54,886 INFO  [Log] Entering Student First Name 
+2016-09-01 18:43:55,993 INFO  [Log] Entering Student Last Name 
+2016-09-01 18:43:57,293 INFO  [Log] Selecting Student's Gender 
+2016-09-01 18:44:01,894 INFO  [Log] Entering Student DOB using Calendar 
+2016-09-01 18:44:03,193 INFO  [Log] Selecting Student Grade Level 
+2016-09-01 18:44:04,319 INFO  [Log] Entering Student Username 
+2016-09-01 18:44:05,493 INFO  [Log] Entering Student Password 
+2016-09-01 18:44:06,654 INFO  [Log] Clicking on Save&Next Button 
+2016-09-01 18:44:12,023 INFO  [Log] Selecting Student's Enrollment Code 
+2016-09-01 18:44:13,173 INFO  [Log] Clicking on Save Button 
+2016-09-01 18:44:13,806 INFO  [Log] Clicking on Address and Contact tab 
+2016-09-01 18:44:14,448 INFO  [Log] Entering Student Address 
+2016-09-01 18:44:15,042 INFO  [Log] Entering Student City 
+2016-09-01 18:44:15,602 INFO  [Log] Entering Student State 
+2016-09-01 18:44:16,174 INFO  [Log] Entering Student Zip Code 
+2016-09-01 18:44:17,018 INFO  [Log] Selecting Primary Relationship as Father 
+2016-09-01 18:44:17,639 INFO  [Log] Entering Father First Name 
+2016-09-01 18:44:18,217 INFO  [Log] Entering Father Last Name 
+2016-09-01 18:44:18,842 INFO  [Log] Entering Father Email Id 
+2016-09-01 18:44:19,528 INFO  [Log] Clicking on Portal User Checkbox for Father 
+2016-09-01 18:44:20,092 INFO  [Log] Entering Father UserName 
+2016-09-01 18:44:20,713 INFO  [Log] Entering Father Password 
+2016-09-01 18:44:21,568 INFO  [Log] Selecting Secondary Relationship as Mother 
+2016-09-01 18:44:22,129 INFO  [Log] Entering Mother First Name 
+2016-09-01 18:44:22,700 INFO  [Log] Entering Mother Last Name 
+2016-09-01 18:44:23,303 INFO  [Log] Entering Mother Email Id 
+2016-09-01 18:44:24,080 INFO  [Log] Clicking on Portal User Checkbox for Mother 
+2016-09-01 18:44:24,662 INFO  [Log] Entering Mother UserName 
+2016-09-01 18:44:25,271 INFO  [Log] Entering Mother Password 
+2016-09-01 18:44:25,933 INFO  [Log] Clicking on Save Button 
+2016-09-01 18:44:31,278 INFO  [Log] Student Page Action Performed Successfully 
+2016-09-01 18:44:31,279 INFO  [Log] Events Going to Performed on User Page 
+2016-09-01 18:44:33,409 INFO  [Log] Clicking on Users Tab 
+2016-09-01 18:44:34,497 INFO  [Log] Clicking  on Staff Tab 
+2016-09-01 18:44:35,576 INFO  [Log] Clicking  on Add a Staff Tab 
+2016-09-01 18:44:36,901 INFO  [Log] Select Staff Salutation 
+2016-09-01 18:44:37,993 INFO  [Log] Enter Staff First Name 
+2016-09-01 18:44:39,077 INFO  [Log] Enter Staff Last Name 
+2016-09-01 18:44:40,384 INFO  [Log] Select Staff Gender 
+2016-09-01 18:44:41,500 INFO  [Log] Enter Staff Email Id 
+2016-09-01 18:44:42,635 INFO  [Log] Clicking  on Save&Next Button 
+2016-09-01 18:44:43,999 INFO  [Log] Select Staff Category 
+2016-09-01 18:44:45,086 INFO  [Log] Enter Staff Job Title 
+2016-09-01 18:44:46,254 INFO  [Log] Clicking  on Staff Joining Calendar 
+2016-09-01 18:44:47,333 INFO  [Log] Select Staff Joining Year 
+2016-09-01 18:44:48,510 INFO  [Log] Select Staff Joining Month 
+2016-09-01 18:44:49,628 INFO  [Log] Clicking  on Staff Joining Day 
+2016-09-01 18:44:50,770 INFO  [Log] Clicking  on Staff Access Checkbox 
+2016-09-01 18:44:52,081 INFO  [Log] Select Staff Profile 
+2016-09-01 18:44:53,159 INFO  [Log] Enter Staff User Name 
+2016-09-01 18:44:54,255 INFO  [Log] Enter Staff Password 
+2016-09-01 18:44:55,420 INFO  [Log] Clicking  on Save Button 
+2016-09-01 18:45:00,432 INFO  [Log] User Page Action Performed Successfully 
+2016-09-01 18:45:00,433 INFO  [Log] Events Going to Performed on Course Page  
+2016-09-01 18:45:02,566 INFO  [Log] Clicking on School Setup Tab 
+2016-09-01 18:45:02,571 INFO  [Log] Mouse hover to Courses 
+2016-09-01 18:45:03,740 INFO  [Log] Clicking on Course Manager 
+2016-09-01 18:45:04,868 INFO  [Log] Clicking on Add Subject symbol 
+2016-09-01 18:45:05,974 INFO  [Log] Entering Subject Title 
+2016-09-01 18:45:07,088 INFO  [Log] Clicking on Subject Save Button 
+2016-09-01 18:45:08,255 INFO  [Log] Clicking on Add Course symbol 
+2016-09-01 18:45:09,339 INFO  [Log] Entering Course Title 
+2016-09-01 18:45:10,400 INFO  [Log] Entering Course Short Name 
+2016-09-01 18:45:11,530 INFO  [Log] Clicking on Course Save Button 
+2016-09-01 18:45:12,642 INFO  [Log] Clicking on Add Course Period symbol 
+2016-09-01 18:45:13,698 INFO  [Log] Entering Course Period Short Name 
+2016-09-01 18:45:14,972 INFO  [Log] Selecting the Calendar from the Drop Down 
+2016-09-01 18:45:16,228 INFO  [Log] Slecting the Primary Teacher from the Drop Down 
+2016-09-01 18:45:17,282 INFO  [Log] Entering the Number of Seats 
+2016-09-01 18:45:18,533 INFO  [Log] Selecting the Grading Scale from the Drop Down 
+2016-09-01 18:45:19,668 INFO  [Log] Clicking on Marking Period Radio Button 
+2016-09-01 18:45:21,024 INFO  [Log] Selecting the Marking Period from the Drop Down 
+2016-09-01 18:45:22,172 INFO  [Log] Clicking on Fixed Scheduled Radio Button 
+2016-09-01 18:45:23,489 INFO  [Log] Selecting the Class Room from the Drop Down 
+2016-09-01 18:45:24,787 INFO  [Log] Selecting Period from the Drop Down 
+2016-09-01 18:45:25,930 INFO  [Log] Clicking on Monday Check Box 
+2016-09-01 18:45:27,110 INFO  [Log] Clicking on Tuesday Check Box 
+2016-09-01 18:45:28,265 INFO  [Log] Clicking on Wednesday Check Box 
+2016-09-01 18:45:29,409 INFO  [Log] Clicking on Thursday Check Box 
+2016-09-01 18:45:30,553 INFO  [Log] Clicking on Friday Check Box 
+2016-09-01 18:45:31,693 INFO  [Log] Enabling the Takes Attendance Check Box 
+2016-09-01 18:45:32,816 INFO  [Log] Clicking on Takes Attendance Check Box 
+2016-09-01 18:45:33,967 INFO  [Log] Clicking on Course Period Save Button 
+2016-09-01 18:45:38,977 INFO  [Log] Course Page Action Performed Successfully 
+2016-09-01 18:45:38,979 INFO  [Log] Events Going to Performed on Schedule Page  
+2016-09-01 18:45:41,105 INFO  [Log] Clicking on Scheduling Tab 
+2016-09-01 18:45:42,382 INFO  [Log] Clicking on Add a Course Link 
+2016-09-01 18:45:43,528 INFO  [Log] Clicking on Selected Course 
+2016-09-01 18:45:44,629 INFO  [Log] Clicking on Selected Course Period Check Box 
+2016-09-01 18:45:46,180 INFO  [Log] Clicking on Done Button 
+2016-09-01 18:45:49,328 INFO  [Log] Clicking on Scheduling Tab 
+2016-09-01 18:45:50,473 INFO  [Log] Clicking on Save Button 
+2016-09-01 18:45:55,473 INFO  [Log] Schedule Page Action Performed Successfully 
+2016-09-01 18:45:55,638 INFO  [Log] Clicking on LogOut Button 
+2016-09-01 18:46:00,733 INFO  [Log] Closing the browser 
+2016-09-01 18:46:00,733 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:46:00,733 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:46:00,733 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2016-09-01 18:46:00,733 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:46:00,733 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:47:08,214 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:47:08,215 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:47:08,215 INFO  [Log]                                sTestCaseName                                        
+2016-09-01 18:47:08,215 INFO  [Log] **************************************************************************************** 
+2016-09-01 18:47:08,215 INFO  [Log] **************************************************************************************** 
