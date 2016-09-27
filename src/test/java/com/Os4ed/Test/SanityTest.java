@@ -3,6 +3,7 @@ package com.Os4ed.Test;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
+import com.Os4ed.Modules.AssignmentPageAction;
 import com.Os4ed.Modules.AttendancePageAction;
 import com.Os4ed.Modules.CoursePageAction;
 import com.Os4ed.Modules.GradesPageAction;
@@ -10,7 +11,9 @@ import com.Os4ed.Modules.LoginPageAction;
 import com.Os4ed.Modules.SchedulePageAction;
 import com.Os4ed.Modules.SchoolSetupPageAction;
 import com.Os4ed.Modules.StudentPageAction;
+import com.Os4ed.Modules.TeacherLoginPageAction;
 import com.Os4ed.Modules.UserPageAction;
+import com.Os4ed.Pages.CreateAssignmentPage;
 import com.Os4ed.Pages.CreateAttendancePage;
 import com.Os4ed.Pages.CreateCoursePage;
 import com.Os4ed.Pages.CreateGradesPage;
@@ -25,7 +28,7 @@ import com.Os4ed.Utils.Log;
 
 public class SanityTest extends SelTestCase {
 	
-	@Test
+	@Test(priority = 1)
 	public void OpenSIS() throws InterruptedException {
 		PageFactory.initElements(driver, CreateLoginPage.class);
 		PageFactory.initElements(driver, CreateLoginPage.LoginPageDetails.class);
@@ -131,6 +134,45 @@ public class SanityTest extends SelTestCase {
 		driver.navigate().to("http://localhost/openSIS_Update/openSIS_CE/index.php?modfunc=logout");
 		Log.info("Clicking on LogOut Button");
 		Thread.sleep(5000);
+		
+	}
+	
+	@Test(priority = 2)
+	public void OpenSISTest() throws InterruptedException {
+	
+		PageFactory.initElements(driver, CreateLoginPage.class);
+		PageFactory.initElements(driver, CreateLoginPage.LoginPageDetails.class);
+		PageFactory.initElements(driver, CreateHomePage.class);
+		PageFactory.initElements(driver, CreateHomePage.HomePageDetails.class);
+		PageFactory.initElements(driver, CreateGradesPage.class);
+		PageFactory.initElements(driver, CreateGradesPage.GradesPageDetails.class);
+		PageFactory.initElements(driver, CreateAssignmentPage.class);
+		PageFactory.initElements(driver, CreateAssignmentPage.AssignmentPageDetails.class);
+		
+		
+		try{
+		TeacherLoginPageAction.executeEventsOnTeacherLoginPage();
+		Thread.sleep(5000);
+		Log.info("Login Action Performed Successfully");
+		} catch (Exception e) {
+			Log.info("Login Action does not Performed Successfully");
+			e.printStackTrace();
+		}
+		
+		try{
+		AssignmentPageAction.executeEventsOnAssignmentPage();
+		Thread.sleep(5000);
+		Log.info("Assignment Page Action Performed Successfully");	
+		} catch (Exception e) {
+			Log.info("Assignment Page Action does not Performed Successfully");
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		driver.navigate().to("http://localhost/openSIS_Update/openSIS_CE/index.php?modfunc=logout");
+		Log.info("Clicking on LogOut Button");
 		
 	}
 }

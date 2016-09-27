@@ -27,6 +27,23 @@ public class CreateGradesPage {
 		@FindBy(how = How.XPATH, using = ".//*[@id='menu_child_grades_2']/a[3]")
 		public static WebElement honorRollSetup;
 		
+		//Teacher Login Grade Part for creating Assignment
+		
+		@FindBy(how = How.ID, using = "mm_grades_1")
+		public static WebElement GradeBookLink;
+		
+		@FindBy(how = How.XPATH, using = ".//*[@id='menu_child_grades_1']/a[1]")
+		public static WebElement enterGrades;
+		
+		@FindBy(how = How.XPATH, using = ".//*[@id='menu_child_grades_1']/a[2]")
+		public static WebElement setupAssignments;
+		
+		@FindBy(how = How.XPATH, using = ".//*[@id='menu_child_grades_1']/a[3]")
+		public static WebElement anomalousGrades;
+		
+		@FindBy(how = How.XPATH, using = ".//*[@id='menu_child_grades_1']/a[4]")
+		public static WebElement progressReports;
+		
 		
 		public static class ReportCardGradesDetails {
 			
