@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import com.Os4ed.Modules.AssignmentPageAction;
 import com.Os4ed.Modules.AttendancePageAction;
 import com.Os4ed.Modules.CoursePageAction;
+import com.Os4ed.Modules.GradebookGradesPageAction;
 import com.Os4ed.Modules.GradesPageAction;
 import com.Os4ed.Modules.LoginPageAction;
 import com.Os4ed.Modules.SchedulePageAction;
@@ -28,7 +29,7 @@ import com.Os4ed.Utils.Log;
 
 public class SanityTest extends SelTestCase {
 	
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void OpenSIS() throws InterruptedException {
 		PageFactory.initElements(driver, CreateLoginPage.class);
 		PageFactory.initElements(driver, CreateLoginPage.LoginPageDetails.class);
@@ -137,7 +138,7 @@ public class SanityTest extends SelTestCase {
 		
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void OpenSISTest() throws InterruptedException {
 	
 		PageFactory.initElements(driver, CreateLoginPage.class);
@@ -167,6 +168,18 @@ public class SanityTest extends SelTestCase {
 			Log.info("Assignment Page Action does not Performed Successfully");
 			e.printStackTrace();
 		}
+		
+		
+		try{
+			GradebookGradesPageAction.executeEventsOnGradebookPage();
+			Thread.sleep(5000);
+			Log.info("Gradebook Page Action Performed Successfully");	
+			} catch (Exception e) {
+				Log.info("Gradebook Page Action does not Performed Successfully");
+				e.printStackTrace();
+			}
+		
+		
 		
 		
 		

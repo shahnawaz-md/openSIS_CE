@@ -64,7 +64,7 @@ public class CreateAssignmentPage {
 		@FindBy(how = How.XPATH, using = ".//*[@id='content']/table/tbody/tr/td/form/table/tbody/tr[1]/td[1]/font/b/select")
 		public static WebElement selectAssignment;
 		
-		@FindBy(how = How.ID, using = "values[1][1][POINTS]")
+		@FindBy(how = How.ID, using = "values[1][8][POINTS]")
 		public static WebElement enterPoints;
 		
 		@FindBy(how = How.CLASS_NAME, using = "btn_medium")

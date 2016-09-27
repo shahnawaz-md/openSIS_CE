@@ -17,7 +17,11 @@ public class AssignmentPageAction extends SelTestCase {
 		
 		driver.switchTo().frame("body");
 		CreateHomePage.HomePageDetails.gradesLink.click();
+		Thread.sleep(1000);
+		Log.info("Clicking on Grades Link");
 		CreateGradesPage.GradesPageDetails.GradeBookLink.click();
+		Thread.sleep(1000);
+		Log.info("Clicking on Gradebook Link");
 		
 		Actions actions = new Actions(driver);
 		WebElement mainMenu = CreateGradesPage.GradesPageDetails.GradeBookLink;
@@ -31,17 +35,31 @@ public class AssignmentPageAction extends SelTestCase {
 		Log.info("Clicking on Assignment");
 		
 		CreateAssignmentPage.AssignmentPageDetails.addAssignmentType.click();
+		Thread.sleep(1000);
+		Log.info("Clicking on Add Assignment type");
 		CreateAssignmentPage.AssignmentPageDetails.newAssignmentType.clear();
 		CreateAssignmentPage.AssignmentPageDetails.newAssignmentType.sendKeys("Class Test");
+		Thread.sleep(1000);
+		Log.info("Entering the Assignment Type");
 		CreateAssignmentPage.AssignmentPageDetails.saveAssignmentType.click();
 		Thread.sleep(1000);
+		Log.info("Clicking on Assignment Type Save Button");
 		CreateAssignmentPage.AssignmentPageDetails.addAssignment.click();
+		Thread.sleep(1000);
+		Log.info("Clicking on Add Assignment");
 		CreateAssignmentPage.AssignmentPageDetails.newAssignmentTitle.clear();
 		CreateAssignmentPage.AssignmentPageDetails.newAssignmentTitle.sendKeys("Test");
+		Thread.sleep(1000);
+		Log.info("Entering Assignment Title");
 		CreateAssignmentPage.AssignmentPageDetails.assignmentPoints.sendKeys("10");
-		CreateAssignmentPage.AssignmentPageDetails.assignedCalendar.click();
+		Thread.sleep(1000);
+		Log.info("Entering Assignment Points");
+		
 		
 		//Assigned Date
+		CreateAssignmentPage.AssignmentPageDetails.assignedCalendar.click();
+		Thread.sleep(1000);
+		Log.info("Clicking on Assigned Calendar Link");
 		WebElement assignedYear = CreateAssignmentPage.AssignmentPageDetails.selectAssignedCalendarYear;
 		Select selectAssignedYear = new Select(assignedYear);
 		selectAssignedYear.selectByValue("2016");
@@ -50,19 +68,21 @@ public class AssignmentPageAction extends SelTestCase {
 		selectAssignedMonth.selectByValue("8");
 		CreateAssignmentPage.AssignmentPageDetails.selectAssignedCalendarDay.click();
 		Thread.sleep(1000);
-		CreateAssignmentPage.AssignmentPageDetails.dueCalendar.click();
+		
 		
 		//Due Date
+		CreateAssignmentPage.AssignmentPageDetails.dueCalendar.click();
+		Thread.sleep(1000);
+		Log.info("Clicking on Due Calendar Link");
 		WebElement dueYear = CreateAssignmentPage.AssignmentPageDetails.selectDueCalendarYear;
 		Select selectDueYear = new Select(dueYear);
 		selectDueYear.selectByValue("2016");
 		WebElement dueMonth = CreateAssignmentPage.AssignmentPageDetails.selectDueCalendarMonth;
 		Select selectDueMonth = new Select(dueMonth);
 		selectDueMonth.selectByValue("8");
-		CreateAssignmentPage.AssignmentPageDetails.selectDueCalendarDay.click();
-		
 		CreateAssignmentPage.AssignmentPageDetails.saveAssignment.click();
 		Thread.sleep(1000);
+		Log.info("Clicking on Assignment Save Button");
 		
 	}
 
